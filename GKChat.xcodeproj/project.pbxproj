@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84535C4315D54455001BC325 /* notes in Resources */ = {isa = PBXBuildFile; fileRef = 84535C4215D54455001BC325 /* notes */; };
+		846F5A8715D521C000CD7F38 /* chat.png in Resources */ = {isa = PBXBuildFile; fileRef = 846F5A8615D521C000CD7F38 /* chat.png */; };
+		846F5AB015D53A1300CD7F38 /* SZChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 846F5AAF15D53A1300CD7F38 /* SZChatCell.m */; };
+		846F5AB315D53A5100CD7F38 /* ZSChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846F5AB215D53A5100CD7F38 /* ZSChatCell.xib */; };
+		848C422815D400FB00ADB3B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848C422715D400FB00ADB3B6 /* UIKit.framework */; };
+		848C422A15D400FC00ADB3B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848C422915D400FB00ADB3B6 /* Foundation.framework */; };
+		848C422C15D400FC00ADB3B6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848C422B15D400FC00ADB3B6 /* CoreGraphics.framework */; };
+		848C423215D400FC00ADB3B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 848C423015D400FC00ADB3B6 /* InfoPlist.strings */; };
+		848C423415D400FC00ADB3B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 848C423315D400FC00ADB3B6 /* main.m */; };
+		848C423815D400FC00ADB3B6 /* SZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 848C423715D400FC00ADB3B6 /* SZAppDelegate.m */; };
+		848C423B15D400FC00ADB3B6 /* SZFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848C423A15D400FC00ADB3B6 /* SZFirstViewController.m */; };
+		848C424215D400FC00ADB3B6 /* SZSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848C424115D400FC00ADB3B6 /* SZSecondViewController.m */; };
+		848C424415D400FC00ADB3B6 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 848C424315D400FC00ADB3B6 /* second.png */; };
+		848C424615D400FC00ADB3B6 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 848C424515D400FC00ADB3B6 /* second@2x.png */; };
+		848C424915D400FC00ADB3B6 /* SZFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848C424715D400FC00ADB3B6 /* SZFirstViewController.xib */; };
+		848C424C15D400FC00ADB3B6 /* SZSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848C424A15D400FC00ADB3B6 /* SZSecondViewController.xib */; };
+		848C425315D40E0200ADB3B6 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848C425215D40E0200ADB3B6 /* GameKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84535C4215D54455001BC325 /* notes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = notes; sourceTree = "<group>"; };
+		846F5A8615D521C000CD7F38 /* chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat.png; sourceTree = "<group>"; };
+		846F5AAE15D53A1300CD7F38 /* SZChatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZChatCell.h; sourceTree = "<group>"; };
+		846F5AAF15D53A1300CD7F38 /* SZChatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZChatCell.m; sourceTree = "<group>"; };
+		846F5AB215D53A5100CD7F38 /* ZSChatCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZSChatCell.xib; sourceTree = "<group>"; };
+		848C422315D400FB00ADB3B6 /* GKChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GKChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		848C422715D400FB00ADB3B6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		848C422915D400FB00ADB3B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		848C422B15D400FC00ADB3B6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		848C422F15D400FC00ADB3B6 /* GKChat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GKChat-Info.plist"; sourceTree = "<group>"; };
+		848C423115D400FC00ADB3B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		848C423315D400FC00ADB3B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		848C423515D400FC00ADB3B6 /* GKChat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GKChat-Prefix.pch"; sourceTree = "<group>"; };
+		848C423615D400FC00ADB3B6 /* SZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZAppDelegate.h; sourceTree = "<group>"; };
+		848C423715D400FC00ADB3B6 /* SZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZAppDelegate.m; sourceTree = "<group>"; };
+		848C423915D400FC00ADB3B6 /* SZFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZFirstViewController.h; sourceTree = "<group>"; };
+		848C423A15D400FC00ADB3B6 /* SZFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZFirstViewController.m; sourceTree = "<group>"; };
+		848C424015D400FC00ADB3B6 /* SZSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZSecondViewController.h; sourceTree = "<group>"; };
+		848C424115D400FC00ADB3B6 /* SZSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZSecondViewController.m; sourceTree = "<group>"; };
+		848C424315D400FC00ADB3B6 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		848C424515D400FC00ADB3B6 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		848C424815D400FC00ADB3B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SZFirstViewController.xib; sourceTree = "<group>"; };
+		848C424B15D400FC00ADB3B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SZSecondViewController.xib; sourceTree = "<group>"; };
+		848C425215D40E0200ADB3B6 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		848C422015D400FB00ADB3B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848C425315D40E0200ADB3B6 /* GameKit.framework in Frameworks */,
+				848C422815D400FB00ADB3B6 /* UIKit.framework in Frameworks */,
+				848C422A15D400FC00ADB3B6 /* Foundation.framework in Frameworks */,
+				848C422C15D400FC00ADB3B6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		846F5A8315D51F6500CD7F38 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				846F5A8615D521C000CD7F38 /* chat.png */,
+				848C424315D400FC00ADB3B6 /* second.png */,
+				848C424515D400FC00ADB3B6 /* second@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		846F5A8415D51F8000CD7F38 /* NIBs */ = {
+			isa = PBXGroup;
+			children = (
+				848C424715D400FC00ADB3B6 /* SZFirstViewController.xib */,
+				846F5AB215D53A5100CD7F38 /* ZSChatCell.xib */,
+				848C424A15D400FC00ADB3B6 /* SZSecondViewController.xib */,
+			);
+			name = NIBs;
+			sourceTree = "<group>";
+		};
+		846F5A8515D51F8B00CD7F38 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				848C423615D400FC00ADB3B6 /* SZAppDelegate.h */,
+				848C423715D400FC00ADB3B6 /* SZAppDelegate.m */,
+				848C423915D400FC00ADB3B6 /* SZFirstViewController.h */,
+				848C423A15D400FC00ADB3B6 /* SZFirstViewController.m */,
+				846F5AAE15D53A1300CD7F38 /* SZChatCell.h */,
+				846F5AAF15D53A1300CD7F38 /* SZChatCell.m */,
+				848C424015D400FC00ADB3B6 /* SZSecondViewController.h */,
+				848C424115D400FC00ADB3B6 /* SZSecondViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		848C421815D400FB00ADB3B6 = {
+			isa = PBXGroup;
+			children = (
+				84535C4215D54455001BC325 /* notes */,
+				848C422D15D400FC00ADB3B6 /* GKChat */,
+				848C422615D400FB00ADB3B6 /* Frameworks */,
+				848C422415D400FB00ADB3B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		848C422415D400FB00ADB3B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				848C422315D400FB00ADB3B6 /* GKChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		848C422615D400FB00ADB3B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				848C425215D40E0200ADB3B6 /* GameKit.framework */,
+				848C422715D400FB00ADB3B6 /* UIKit.framework */,
+				848C422915D400FB00ADB3B6 /* Foundation.framework */,
+				848C422B15D400FC00ADB3B6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		848C422D15D400FC00ADB3B6 /* GKChat */ = {
+			isa = PBXGroup;
+			children = (
+				846F5A8515D51F8B00CD7F38 /* Classes */,
+				846F5A8415D51F8000CD7F38 /* NIBs */,
+				846F5A8315D51F6500CD7F38 /* Images */,
+				848C422E15D400FC00ADB3B6 /* Supporting Files */,
+			);
+			path = GKChat;
+			sourceTree = "<group>";
+		};
+		848C422E15D400FC00ADB3B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				848C422F15D400FC00ADB3B6 /* GKChat-Info.plist */,
+				848C423015D400FC00ADB3B6 /* InfoPlist.strings */,
+				848C423315D400FC00ADB3B6 /* main.m */,
+				848C423515D400FC00ADB3B6 /* GKChat-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		848C422215D400FB00ADB3B6 /* GKChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848C424F15D400FC00ADB3B6 /* Build configuration list for PBXNativeTarget "GKChat" */;
+			buildPhases = (
+				848C421F15D400FB00ADB3B6 /* Sources */,
+				848C422015D400FB00ADB3B6 /* Frameworks */,
+				848C422115D400FB00ADB3B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GKChat;
+			productName = GKChat;
+			productReference = 848C422315D400FB00ADB3B6 /* GKChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		848C421A15D400FB00ADB3B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SZ;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 848C421D15D400FB00ADB3B6 /* Build configuration list for PBXProject "GKChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 848C421815D400FB00ADB3B6;
+			productRefGroup = 848C422415D400FB00ADB3B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				848C422215D400FB00ADB3B6 /* GKChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		848C422115D400FB00ADB3B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848C423215D400FC00ADB3B6 /* InfoPlist.strings in Resources */,
+				848C424415D400FC00ADB3B6 /* second.png in Resources */,
+				848C424615D400FC00ADB3B6 /* second@2x.png in Resources */,
+				848C424915D400FC00ADB3B6 /* SZFirstViewController.xib in Resources */,
+				848C424C15D400FC00ADB3B6 /* SZSecondViewController.xib in Resources */,
+				846F5A8715D521C000CD7F38 /* chat.png in Resources */,
+				846F5AB315D53A5100CD7F38 /* ZSChatCell.xib in Resources */,
+				84535C4315D54455001BC325 /* notes in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		848C421F15D400FB00ADB3B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848C423415D400FC00ADB3B6 /* main.m in Sources */,
+				848C423815D400FC00ADB3B6 /* SZAppDelegate.m in Sources */,
+				848C423B15D400FC00ADB3B6 /* SZFirstViewController.m in Sources */,
+				848C424215D400FC00ADB3B6 /* SZSecondViewController.m in Sources */,
+				846F5AB015D53A1300CD7F38 /* SZChatCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		848C423015D400FC00ADB3B6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				848C423115D400FC00ADB3B6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		848C424715D400FC00ADB3B6 /* SZFirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				848C424815D400FC00ADB3B6 /* en */,
+			);
+			name = SZFirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		848C424A15D400FC00ADB3B6 /* SZSecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				848C424B15D400FC00ADB3B6 /* en */,
+			);
+			name = SZSecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		848C424D15D400FC00ADB3B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		848C424E15D400FC00ADB3B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		848C425015D400FC00ADB3B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GKChat/GKChat-Prefix.pch";
+				INFOPLIST_FILE = "GKChat/GKChat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		848C425115D400FC00ADB3B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GKChat/GKChat-Prefix.pch";
+				INFOPLIST_FILE = "GKChat/GKChat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		848C421D15D400FB00ADB3B6 /* Build configuration list for PBXProject "GKChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848C424D15D400FC00ADB3B6 /* Debug */,
+				848C424E15D400FC00ADB3B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848C424F15D400FC00ADB3B6 /* Build configuration list for PBXNativeTarget "GKChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848C425015D400FC00ADB3B6 /* Debug */,
+				848C425115D400FC00ADB3B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 848C421A15D400FB00ADB3B6 /* Project object */;
+}

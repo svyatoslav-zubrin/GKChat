@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		840E428615DA5EBB002DC366 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 840E428415DA5EBB002DC366 /* Model.xcdatamodeld */; };
+		840E428915DA6DC9002DC366 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E428815DA6DC9002DC366 /* Message.m */; };
+		840E428C15DA6DCA002DC366 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E428B15DA6DCA002DC366 /* UserInfo.m */; };
 		84535C4315D54455001BC325 /* notes in Resources */ = {isa = PBXBuildFile; fileRef = 84535C4215D54455001BC325 /* notes */; };
 		846F5A8715D521C000CD7F38 /* chat.png in Resources */ = {isa = PBXBuildFile; fileRef = 846F5A8615D521C000CD7F38 /* chat.png */; };
 		846F5AB015D53A1300CD7F38 /* SZChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 846F5AAF15D53A1300CD7F38 /* SZChatCell.m */; };
@@ -27,6 +30,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		840E428515DA5EBB002DC366 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		840E428715DA6DC9002DC366 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		840E428815DA6DC9002DC366 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		840E428A15DA6DCA002DC366 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		840E428B15DA6DCA002DC366 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
 		84535C4215D54455001BC325 /* notes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = notes; sourceTree = "<group>"; };
 		846F5A8615D521C000CD7F38 /* chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat.png; sourceTree = "<group>"; };
 		846F5AAE15D53A1300CD7F38 /* SZChatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZChatCell.h; sourceTree = "<group>"; };
@@ -68,6 +76,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		840E428215DA5E95002DC366 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				840E428415DA5EBB002DC366 /* Model.xcdatamodeld */,
+				840E428A15DA6DCA002DC366 /* UserInfo.h */,
+				840E428B15DA6DCA002DC366 /* UserInfo.m */,
+				840E428715DA6DC9002DC366 /* Message.h */,
+				840E428815DA6DC9002DC366 /* Message.m */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
 		846F5A8315D51F6500CD7F38 /* Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +111,7 @@
 		846F5A8515D51F8B00CD7F38 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				840E428215DA5E95002DC366 /* Database */,
 				848C423615D400FC00ADB3B6 /* SZAppDelegate.h */,
 				848C423715D400FC00ADB3B6 /* SZAppDelegate.m */,
 				848C423915D400FC00ADB3B6 /* SZFirstViewController.h */,
@@ -228,6 +249,9 @@
 				848C423B15D400FC00ADB3B6 /* SZFirstViewController.m in Sources */,
 				848C424215D400FC00ADB3B6 /* SZSecondViewController.m in Sources */,
 				846F5AB015D53A1300CD7F38 /* SZChatCell.m in Sources */,
+				840E428615DA5EBB002DC366 /* Model.xcdatamodeld in Sources */,
+				840E428915DA6DC9002DC366 /* Message.m in Sources */,
+				840E428C15DA6DCA002DC366 /* UserInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +374,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		840E428415DA5EBB002DC366 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				840E428515DA5EBB002DC366 /* Model.xcdatamodel */,
+			);
+			currentVersion = 840E428515DA5EBB002DC366 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 848C421A15D400FB00ADB3B6 /* Project object */;
 }

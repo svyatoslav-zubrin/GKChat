@@ -10,6 +10,8 @@
 		840E428615DA5EBB002DC366 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 840E428415DA5EBB002DC366 /* Model.xcdatamodeld */; };
 		840E428915DA6DC9002DC366 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E428815DA6DC9002DC366 /* Message.m */; };
 		840E428C15DA6DCA002DC366 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E428B15DA6DCA002DC366 /* UserInfo.m */; };
+		840E428F15DA6E97002DC366 /* SZDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E428E15DA6E97002DC366 /* SZDatabase.m */; };
+		840E429115DA6EE5002DC366 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840E429015DA6EE5002DC366 /* CoreData.framework */; };
 		84535C4315D54455001BC325 /* notes in Resources */ = {isa = PBXBuildFile; fileRef = 84535C4215D54455001BC325 /* notes */; };
 		846F5A8715D521C000CD7F38 /* chat.png in Resources */ = {isa = PBXBuildFile; fileRef = 846F5A8615D521C000CD7F38 /* chat.png */; };
 		846F5AB015D53A1300CD7F38 /* SZChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 846F5AAF15D53A1300CD7F38 /* SZChatCell.m */; };
@@ -27,6 +29,7 @@
 		848C424915D400FC00ADB3B6 /* SZFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848C424715D400FC00ADB3B6 /* SZFirstViewController.xib */; };
 		848C424C15D400FC00ADB3B6 /* SZSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848C424A15D400FC00ADB3B6 /* SZSecondViewController.xib */; };
 		848C425315D40E0200ADB3B6 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848C425215D40E0200ADB3B6 /* GameKit.framework */; };
+		84DA3BB615DBD3BB00278BBB /* SZConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA3BB515DBD3BB00278BBB /* SZConnectionManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,9 @@
 		840E428815DA6DC9002DC366 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
 		840E428A15DA6DCA002DC366 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
 		840E428B15DA6DCA002DC366 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		840E428D15DA6E97002DC366 /* SZDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZDatabase.h; sourceTree = "<group>"; };
+		840E428E15DA6E97002DC366 /* SZDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZDatabase.m; sourceTree = "<group>"; };
+		840E429015DA6EE5002DC366 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		84535C4215D54455001BC325 /* notes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = notes; sourceTree = "<group>"; };
 		846F5A8615D521C000CD7F38 /* chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat.png; sourceTree = "<group>"; };
 		846F5AAE15D53A1300CD7F38 /* SZChatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZChatCell.h; sourceTree = "<group>"; };
@@ -59,6 +65,8 @@
 		848C424815D400FC00ADB3B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SZFirstViewController.xib; sourceTree = "<group>"; };
 		848C424B15D400FC00ADB3B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SZSecondViewController.xib; sourceTree = "<group>"; };
 		848C425215D40E0200ADB3B6 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		84DA3BB415DBD3BB00278BBB /* SZConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZConnectionManager.h; sourceTree = "<group>"; };
+		84DA3BB515DBD3BB00278BBB /* SZConnectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZConnectionManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840E429115DA6EE5002DC366 /* CoreData.framework in Frameworks */,
 				848C425315D40E0200ADB3B6 /* GameKit.framework in Frameworks */,
 				848C422815D400FB00ADB3B6 /* UIKit.framework in Frameworks */,
 				848C422A15D400FC00ADB3B6 /* Foundation.framework in Frameworks */,
@@ -84,6 +93,8 @@
 				840E428B15DA6DCA002DC366 /* UserInfo.m */,
 				840E428715DA6DC9002DC366 /* Message.h */,
 				840E428815DA6DC9002DC366 /* Message.m */,
+				840E428D15DA6E97002DC366 /* SZDatabase.h */,
+				840E428E15DA6E97002DC366 /* SZDatabase.m */,
 			);
 			name = Database;
 			sourceTree = "<group>";
@@ -111,6 +122,7 @@
 		846F5A8515D51F8B00CD7F38 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				84DA3BB215DBD33F00278BBB /* Connection */,
 				840E428215DA5E95002DC366 /* Database */,
 				848C423615D400FC00ADB3B6 /* SZAppDelegate.h */,
 				848C423715D400FC00ADB3B6 /* SZAppDelegate.m */,
@@ -145,6 +157,7 @@
 		848C422615D400FB00ADB3B6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				840E429015DA6EE5002DC366 /* CoreData.framework */,
 				848C425215D40E0200ADB3B6 /* GameKit.framework */,
 				848C422715D400FB00ADB3B6 /* UIKit.framework */,
 				848C422915D400FB00ADB3B6 /* Foundation.framework */,
@@ -173,6 +186,15 @@
 				848C423515D400FC00ADB3B6 /* GKChat-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84DA3BB215DBD33F00278BBB /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				84DA3BB415DBD3BB00278BBB /* SZConnectionManager.h */,
+				84DA3BB515DBD3BB00278BBB /* SZConnectionManager.m */,
+			);
+			name = Connection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +274,8 @@
 				840E428615DA5EBB002DC366 /* Model.xcdatamodeld in Sources */,
 				840E428915DA6DC9002DC366 /* Message.m in Sources */,
 				840E428C15DA6DCA002DC366 /* UserInfo.m in Sources */,
+				840E428F15DA6E97002DC366 /* SZDatabase.m in Sources */,
+				84DA3BB615DBD3BB00278BBB /* SZConnectionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,24 +8,30 @@
 
 #import "SZAppDelegate.h"
 
+#import "SZLoginController.h"
 #import "SZFirstViewController.h"
-
 #import "SZSecondViewController.h"
 
 @implementation SZAppDelegate
 
 @synthesize window = _window;
-@synthesize tabBarController = _tabBarController;
+//@synthesize tabBarController = _tabBarController;
+@synthesize navigationController = _navigationController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    UIViewController *viewController1 = [[SZFirstViewController alloc] initWithNibName:@"SZFirstViewController" bundle:nil];
-    UIViewController *viewController2 = [[SZSecondViewController alloc] initWithNibName:@"SZSecondViewController" bundle:nil];
-    self.tabBarController = [[UITabBarController alloc] init];
-    self.tabBarController.viewControllers = [NSArray arrayWithObjects:viewController1, viewController2, nil];
-    self.window.rootViewController = self.tabBarController;
+    SZLoginController *loginController = [[SZLoginController alloc] init];
+    
+    self.navigationController  = [[UINavigationController alloc] init];
+//    UIViewController *chatController = [[SZFirstViewController alloc] initWithNibName:@"SZFirstViewController" bundle:nil];
+//    UIViewController *viewController2 = [[SZSecondViewController alloc] initWithNibName:@"SZSecondViewController" bundle:nil];
+//    self.tabBarController = [[UITabBarController alloc] init];
+//    self.tabBarController.viewControllers = [NSArray arrayWithObjects:viewController1, viewController2, nil];
+    [self.navigationController pushViewController:loginController animated:YES];
+    [self.navigationController setTitle:@"Login GKChat"];
+    self.window.rootViewController = self.navigationController;
     [self.window makeKeyAndVisible];
     return YES;
 }

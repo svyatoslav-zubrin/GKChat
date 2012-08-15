@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		840E428615DA5EBB002DC366 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 840E428415DA5EBB002DC366 /* Model.xcdatamodeld */; };
-		840E428915DA6DC9002DC366 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E428815DA6DC9002DC366 /* Message.m */; };
-		840E428C15DA6DCA002DC366 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E428B15DA6DCA002DC366 /* UserInfo.m */; };
 		840E428F15DA6E97002DC366 /* SZDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E428E15DA6E97002DC366 /* SZDatabase.m */; };
 		840E429115DA6EE5002DC366 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840E429015DA6EE5002DC366 /* CoreData.framework */; };
 		84535C4315D54455001BC325 /* notes in Resources */ = {isa = PBXBuildFile; fileRef = 84535C4215D54455001BC325 /* notes */; };
@@ -30,14 +28,16 @@
 		848C424C15D400FC00ADB3B6 /* SZSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848C424A15D400FC00ADB3B6 /* SZSecondViewController.xib */; };
 		848C425315D40E0200ADB3B6 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848C425215D40E0200ADB3B6 /* GameKit.framework */; };
 		84DA3BB615DBD3BB00278BBB /* SZConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA3BB515DBD3BB00278BBB /* SZConnectionManager.m */; };
+		84DA3BBB15DBE3FE00278BBB /* SZLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA3BB915DBE3FE00278BBB /* SZLoginController.m */; };
+		84DA3BBC15DBE3FE00278BBB /* SZLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84DA3BBA15DBE3FE00278BBB /* SZLoginController.xib */; };
+		84DA3BC015DBE57500278BBB /* SZCreateUserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA3BBE15DBE57500278BBB /* SZCreateUserController.m */; };
+		84DA3BC115DBE57500278BBB /* SZCreateUserController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84DA3BBF15DBE57500278BBB /* SZCreateUserController.xib */; };
+		84DA3BCD15DBEBC900278BBB /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA3BCC15DBEBC900278BBB /* UserInfo.m */; };
+		84DA3BD015DBEBC900278BBB /* ChatMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA3BCF15DBEBC900278BBB /* ChatMessage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		840E428515DA5EBB002DC366 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
-		840E428715DA6DC9002DC366 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
-		840E428815DA6DC9002DC366 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
-		840E428A15DA6DCA002DC366 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
-		840E428B15DA6DCA002DC366 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
 		840E428D15DA6E97002DC366 /* SZDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZDatabase.h; sourceTree = "<group>"; };
 		840E428E15DA6E97002DC366 /* SZDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZDatabase.m; sourceTree = "<group>"; };
 		840E429015DA6EE5002DC366 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -67,6 +67,16 @@
 		848C425215D40E0200ADB3B6 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		84DA3BB415DBD3BB00278BBB /* SZConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZConnectionManager.h; sourceTree = "<group>"; };
 		84DA3BB515DBD3BB00278BBB /* SZConnectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZConnectionManager.m; sourceTree = "<group>"; };
+		84DA3BB815DBE3FE00278BBB /* SZLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZLoginController.h; sourceTree = "<group>"; };
+		84DA3BB915DBE3FE00278BBB /* SZLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZLoginController.m; sourceTree = "<group>"; };
+		84DA3BBA15DBE3FE00278BBB /* SZLoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SZLoginController.xib; sourceTree = "<group>"; };
+		84DA3BBD15DBE57500278BBB /* SZCreateUserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZCreateUserController.h; sourceTree = "<group>"; };
+		84DA3BBE15DBE57500278BBB /* SZCreateUserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZCreateUserController.m; sourceTree = "<group>"; };
+		84DA3BBF15DBE57500278BBB /* SZCreateUserController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SZCreateUserController.xib; sourceTree = "<group>"; };
+		84DA3BCB15DBEBC900278BBB /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		84DA3BCC15DBEBC900278BBB /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		84DA3BCE15DBEBC900278BBB /* ChatMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatMessage.h; sourceTree = "<group>"; };
+		84DA3BCF15DBEBC900278BBB /* ChatMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatMessage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,10 +99,10 @@
 			isa = PBXGroup;
 			children = (
 				840E428415DA5EBB002DC366 /* Model.xcdatamodeld */,
-				840E428A15DA6DCA002DC366 /* UserInfo.h */,
-				840E428B15DA6DCA002DC366 /* UserInfo.m */,
-				840E428715DA6DC9002DC366 /* Message.h */,
-				840E428815DA6DC9002DC366 /* Message.m */,
+				84DA3BCE15DBEBC900278BBB /* ChatMessage.h */,
+				84DA3BCF15DBEBC900278BBB /* ChatMessage.m */,
+				84DA3BCB15DBEBC900278BBB /* UserInfo.h */,
+				84DA3BCC15DBEBC900278BBB /* UserInfo.m */,
 				840E428D15DA6E97002DC366 /* SZDatabase.h */,
 				840E428E15DA6E97002DC366 /* SZDatabase.m */,
 			);
@@ -109,29 +119,23 @@
 			name = Images;
 			sourceTree = "<group>";
 		};
-		846F5A8415D51F8000CD7F38 /* NIBs */ = {
-			isa = PBXGroup;
-			children = (
-				848C424715D400FC00ADB3B6 /* SZFirstViewController.xib */,
-				846F5AB215D53A5100CD7F38 /* ZSChatCell.xib */,
-				848C424A15D400FC00ADB3B6 /* SZSecondViewController.xib */,
-			);
-			name = NIBs;
-			sourceTree = "<group>";
-		};
 		846F5A8515D51F8B00CD7F38 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				84DA3BB215DBD33F00278BBB /* Connection */,
-				840E428215DA5E95002DC366 /* Database */,
 				848C423615D400FC00ADB3B6 /* SZAppDelegate.h */,
 				848C423715D400FC00ADB3B6 /* SZAppDelegate.m */,
+				84DA3BB715DBE3C600278BBB /* Login */,
+				84DA3BB215DBD33F00278BBB /* Connection */,
+				840E428215DA5E95002DC366 /* Database */,
 				848C423915D400FC00ADB3B6 /* SZFirstViewController.h */,
 				848C423A15D400FC00ADB3B6 /* SZFirstViewController.m */,
+				848C424715D400FC00ADB3B6 /* SZFirstViewController.xib */,
 				846F5AAE15D53A1300CD7F38 /* SZChatCell.h */,
 				846F5AAF15D53A1300CD7F38 /* SZChatCell.m */,
+				846F5AB215D53A5100CD7F38 /* ZSChatCell.xib */,
 				848C424015D400FC00ADB3B6 /* SZSecondViewController.h */,
 				848C424115D400FC00ADB3B6 /* SZSecondViewController.m */,
+				848C424A15D400FC00ADB3B6 /* SZSecondViewController.xib */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -170,7 +174,6 @@
 			isa = PBXGroup;
 			children = (
 				846F5A8515D51F8B00CD7F38 /* Classes */,
-				846F5A8415D51F8000CD7F38 /* NIBs */,
 				846F5A8315D51F6500CD7F38 /* Images */,
 				848C422E15D400FC00ADB3B6 /* Supporting Files */,
 			);
@@ -195,6 +198,19 @@
 				84DA3BB515DBD3BB00278BBB /* SZConnectionManager.m */,
 			);
 			name = Connection;
+			sourceTree = "<group>";
+		};
+		84DA3BB715DBE3C600278BBB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				84DA3BB815DBE3FE00278BBB /* SZLoginController.h */,
+				84DA3BB915DBE3FE00278BBB /* SZLoginController.m */,
+				84DA3BBA15DBE3FE00278BBB /* SZLoginController.xib */,
+				84DA3BBD15DBE57500278BBB /* SZCreateUserController.h */,
+				84DA3BBE15DBE57500278BBB /* SZCreateUserController.m */,
+				84DA3BBF15DBE57500278BBB /* SZCreateUserController.xib */,
+			);
+			name = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +272,8 @@
 				846F5A8715D521C000CD7F38 /* chat.png in Resources */,
 				846F5AB315D53A5100CD7F38 /* ZSChatCell.xib in Resources */,
 				84535C4315D54455001BC325 /* notes in Resources */,
+				84DA3BBC15DBE3FE00278BBB /* SZLoginController.xib in Resources */,
+				84DA3BC115DBE57500278BBB /* SZCreateUserController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,10 +290,12 @@
 				848C424215D400FC00ADB3B6 /* SZSecondViewController.m in Sources */,
 				846F5AB015D53A1300CD7F38 /* SZChatCell.m in Sources */,
 				840E428615DA5EBB002DC366 /* Model.xcdatamodeld in Sources */,
-				840E428915DA6DC9002DC366 /* Message.m in Sources */,
-				840E428C15DA6DCA002DC366 /* UserInfo.m in Sources */,
 				840E428F15DA6E97002DC366 /* SZDatabase.m in Sources */,
 				84DA3BB615DBD3BB00278BBB /* SZConnectionManager.m in Sources */,
+				84DA3BBB15DBE3FE00278BBB /* SZLoginController.m in Sources */,
+				84DA3BC015DBE57500278BBB /* SZCreateUserController.m in Sources */,
+				84DA3BCD15DBEBC900278BBB /* UserInfo.m in Sources */,
+				84DA3BD015DBEBC900278BBB /* ChatMessage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

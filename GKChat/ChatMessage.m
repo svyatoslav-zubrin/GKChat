@@ -1,19 +1,20 @@
 //
-//  UserInfo.m
+//  ChatMessage.m
 //  GKChat
 //
 //  Created by admin on 8/15/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "UserInfo.h"
 #import "ChatMessage.h"
+#import "UserInfo.h"
 
 
-@implementation UserInfo
+@implementation ChatMessage
 
-@dynamic name;
-@dynamic userid;
-@dynamic chatmessages;
+@dynamic date;
+@dynamic text;
+@dynamic receiver;
+@dynamic sender;
 
 @end
